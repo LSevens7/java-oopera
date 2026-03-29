@@ -4,7 +4,7 @@ public class MusicalShow extends Show {
     protected Person musicAuthor;
     protected String librettoText;
 
-    MusicalShow(String title,
+    public MusicalShow(String title,
                 int duration,
                 Director director,
                 Person musicAuthor,

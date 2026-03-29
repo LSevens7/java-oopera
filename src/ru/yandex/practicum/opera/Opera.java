@@ -3,7 +3,7 @@ package ru.yandex.practicum.opera;
 public class Opera extends MusicalShow {
     private int choirSize;
 
-    Opera(String title,
+    public Opera(String title,
           int duration,
           Director director,
           Person musicAuthor,

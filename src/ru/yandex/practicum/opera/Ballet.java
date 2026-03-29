@@ -3,7 +3,7 @@ package ru.yandex.practicum.opera;
 public class Ballet extends MusicalShow {
     private Person choreographer;
 
-    Ballet(String title,
+    public Ballet(String title,
            int duration,
            Director director,
            Person musicAuthor,
