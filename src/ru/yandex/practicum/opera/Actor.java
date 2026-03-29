@@ -4,7 +4,7 @@ import java.util.Objects;
 
 public class Actor extends Person {
 
-    int height;
+    private int height;
 
     Actor(String name, String surname, Gender gender, int height) {
         super(name, surname, gender);

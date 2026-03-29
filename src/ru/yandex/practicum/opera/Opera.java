@@ -1,9 +1,7 @@
 package ru.yandex.practicum.opera;
 
-import java.util.ArrayList;
-
 public class Opera extends MusicalShow {
-    int choirSize;
+    private int choirSize;
 
     Opera(String title,
           int duration,

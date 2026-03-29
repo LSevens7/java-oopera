@@ -1,10 +1,8 @@
 package ru.yandex.practicum.opera;
 
-import java.util.ArrayList;
-
 public class MusicalShow extends Show {
-    Person musicAuthor;
-    String librettoText;
+    protected Person musicAuthor;
+    protected String librettoText;
 
     MusicalShow(String title,
                 int duration,

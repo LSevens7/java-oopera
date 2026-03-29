@@ -1,9 +1,7 @@
 package ru.yandex.practicum.opera;
 
-import java.util.ArrayList;
-
 public class Ballet extends MusicalShow {
-    Person choreographer;
+    private Person choreographer;
 
     Ballet(String title,
            int duration,

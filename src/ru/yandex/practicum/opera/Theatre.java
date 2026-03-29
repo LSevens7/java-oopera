@@ -1,8 +1,5 @@
 package ru.yandex.practicum.opera;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Theatre {
     public static void main(String[] args) {
         Actor fistActor = new Actor("Евгений", "Брюхин", Gender.MALE, 180);
@@ -45,5 +42,7 @@ public class Theatre {
 
         operaShow.printLibretto();
         balletShow.printLibretto();
+
+        System.out.println(fistDirector.toString());
     }
 }
